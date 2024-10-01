@@ -1,0 +1,238 @@
+1.> Java  is a high level language .it follows the oops concept.
+  The features of java are:
+* java is Simple.
+* Java is a Object oriented programming language.
+* java is Robust
+* java is PlatForm Independent
+* programming language
+* rich standards
+* 
+2.>java is called platform independent because the code can be written on one platform an run on any platform.it follows the "write once run anywhere".
+    
+JDK:  JDK is a software development kit, it is used to develop the codes in java it consists of the JRE and JVM ,in JDK the program or the code is developed.
+       in which the code is written 
+JRE:  JRE is a part of the JDK ,JRE means the java RunTime environment ,it is used to run the programs,it consists of the compiler,debugger, libraries.
+     
+JVM:   JVM it is a Java Virtual Machine, it converts the Machine level language to human level language. it converts the human readable language to byteCode.
+
+
+
+6.> DataTypes:
+   Depending upon the size of the data and type of the data,the information(data)is differentiated.In datatypes we are having 2 types:
+1. Primitive dataTypes  2.Non Primitive Datatypes
+1>Primitive datatypes:
+
+primitive datatypes are the predefined datatypes. primitive datatypes are of 8 types .They are:
+   *Byte:
+example:class Animal{
+        public Byte  noOf=50;
+        public static void main(String[]args){
+        public void show(){
+        System.out.println("noOf:"+noOf);
+        }
+
+
+
+
+*int:
+class Bird{
+public int noOfWings=2;
+public static void main(String[]args){
+public void display()
+{
+System.out.println("noOfWings:"+noOfWings);
+}
+
+
+
+*short:
+class Peacock{
+public short height=2;
+public static void main(String[]args){
+public void print(){
+System.out.println("height:"+height);
+}
+
+*long
+class Sohita{
+public long mobileNo=9972997179l;
+public static void main(String[]args){
+public void call(){
+System.out.println("mobileNo:"+mobileNo);
+}
+
+*double
+class Sugar{
+public double price=50;
+public static void main(String[]args){
+public void buy(){
+System.out.println("price:"+price);
+}
+
+*float
+class Flower{
+public float weight=3f;
+public static void main(String[]args){
+public void sale(){
+System.out.println("weight:"+weight);
+}
+
+
+*boolean
+class 
+*char
+class Dress{
+public char size='s';
+public static void main(String[]args){
+public void wear(){
+System.out.println("size:"+size);
+}
+
+2>NonPrimitive datatypes 
+Non primitive datatypes are the userDefined datatypes. They are also known to be CustomDataType.
+*class:It is a bluePrint of object.
+and it is datatype
+It has 4 principles:polymorphism,inheritance,encapsulation,abstraction.
+example:
+
+class Institute{
+public Students students;
+public Institute(Students students){
+super();
+System.out.println("created the Institute with parameter Students students);
+public void study(){
+System.out.println("student:"+student);
+public static void main(String[]args){
+System.out.println("running main in Institute");
+}
+
+
+
+*String: String is a sequence of characters
+String is a custom datatype.
+eample:
+public class Home{
+public String name="bhagya";
+public void show(){
+System.out.println("bhagya:+"bhagya);
+}
+
+*Array
+
+
+10>constructor:
+Constructor is a Special Method . It is used with the variables,Methods and class .
+constructor is used to create the instances or the copies of the class.
+In constructor we will invoke the method,initialize it, declare the method or the variable.
+The variable initialization and declaration is called as the Instantiation.
+
+class Book{
+public int noOfBooks;
+public class Book(noOfBooks){
+super();
+System.out.println("created the book with parameter noOfBooks");
+}
+public void read(){
+System.out.println("read in book");
+}
+
+class BookRunner{
+public static void main(String[]args){
+
+Book book=new Book(noOfBooks);
+book.read();
+}}
+
+12.>
+Polymorphism:
+The class(object) having the same name but having  different forms.
+it is a oops concept.
+In polymorphism we are having 2 types:
+* complie Time polymorphism(overloading):
+~ Method overloading and constructor overloading
+
+ The method having the same name but change in the parameter size or datatype,it is called as Method overloading.
+
+ The constructor having the same name but change in the parameters size or change in the datatypes,it is called as Constructor Overloading.
+overloading is also known to be as compile time polymorphism.
+ 
+
+*RunTime polymorphism(overriding)
+over-riding means the subclass(child class) over-rides the method from the parent class.
+method Over-riding:
+method having the same name with same parameters is known as the method Over-riding.
+we use the Annotation @Override.
+Over-Riding is also known  to be as Run-Time polymorphism.
+
+
+13.>
+Inheritance:
+*The child class(Subclass) inherits the methods ,variables from the parent class.
+* Inheritance is achieved through the extend keyword by the subclass.
+inheritanceis the oops Concept.
+
+In Inheritance they are 4 Types:
+1.single inheritance:one class  inherits the properties(methods and variables) from the parent class,only one class is inherited.
+
+2.multilevel Inheritance:more than one class inherits the properties and methods from another class.
+
+
+3.hierarchial Inheritance:
+
+4.hybrid inheritance:
+
+
+
+
+15.>interface:
+interface is a keyword.
+Interface is a media  or the connection between the two classes .
+*using the functions or the classes without knowing the implementation.
+it uses the extend keyword and the       
+interface class is extended by subclass 
+and the subclass is implemented by another
+class. 
+
+               
+*.it uses the extend keyword and the interface class is extended by subclass and the subclass is implemented by another class. 
+
+>Abstract:
+
+*abstract is a keyword.
+*the keyword abstract is used to mention the class is incomplete, if the class has to be modified in future then the class is declared as abstract. 
+*if we declare the class as abstract the we cant inherit or cant create the copy  of the abstract class.
+
+
+ Methods:
+Method is block of code.
+In Methods we are having 2 types:
+Static methods and Non Static methods.
+
+Static methods:
+in the static methods we use the keyword static while declaring the method.
+
+Non-static methods:
+in the NonStatic methods we don't use the static keyword.
+non-static methods are also known as instance method.
+
+
+
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
